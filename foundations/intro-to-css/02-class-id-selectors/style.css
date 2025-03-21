@@ -1,0 +1,19 @@
+p {
+    background-color: lightpink;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.odd.large {
+    font-size: 24px;
+}
+
+#even-first {
+    color: blue;
+    font-size: 36px;
+}
+
+#even-second {
+    font-weight: bold;
+    background-color: lightgreen;
+    font-size: 24px;
+}
