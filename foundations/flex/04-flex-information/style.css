@@ -1,5 +1,74 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+
+  /* border: 3px solid red; */
+}
+
+img {
+  width: 100px;
+  height: 100px;
+
+  /* border: 3px solid blue; */
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 900;
+
+  /* border: 3px solid green; */
+  display: flex;
+  justify-content: center;
+  padding: 2px;
+}
+
+
+.plants-information {
+  
+  /* border: 3px solid purple; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+
+}
+
+.plant {
+  /* border: 2px solid black; */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  
+}
+
+.text {
+
+  /* border: 2px solid pink; */
+  display: flex;
+  gap: 20px;
+  
+  
+  
+  
+
+  
+  padding: 10px;
+
+}
+
+
+
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+  
+
 }
 
 img {
@@ -24,3 +93,8 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+
+
+
+
