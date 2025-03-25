@@ -16,8 +16,8 @@ body {
 
  /*  border: 2px solid red; */
   padding-left: 10px;
-  font-weight: 800;
-  font-size: 30px;
+  font-weight: 900;
+  font-size: 32px;
 
   display: flex;
   align-items: center;
@@ -39,7 +39,7 @@ body {
 }
 
 .sidebar {
-  width: 200px;
+  width: 300px;
   background: royalblue;
   box-sizing: border-box;
 
@@ -77,6 +77,7 @@ ul {
   display: flex;
   flex-direction: column;
   gap: 10px; 
+  font-size: 24px;
 }
 
 a {
@@ -90,7 +91,7 @@ a {
   min-width: 600px;
 
   display: flex;
-  padding: 50px;
+  padding: 48px;
   gap: 20px;
   flex-wrap: wrap;
 
