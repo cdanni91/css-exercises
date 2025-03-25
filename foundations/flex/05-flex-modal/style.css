@@ -13,6 +13,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  /* border: 2px solid red; */
 }
 
 .modal {
@@ -20,6 +22,15 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+
+  /* border: 2px solid red; */
+  display: flex;
+  flex-shrink: 1;
+  min-width: 435px;
+
+  gap: 5px;
+  padding: 5px;
+  
 }
 
 .icon {
@@ -33,6 +44,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  /* border: 2px solid green; */
 }
 
 .close-button {
@@ -48,22 +61,52 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
+
+  /* border: 2px solid blue; */
 }
 
 button {
   cursor: pointer;
   padding: 8px 16px;
   border-radius: 8px;
+
+  /* border: 2px solid red; */
 }
 
 button.continue {
   background: royalblue;
   border: 1px solid royalblue;
   color: white;
+
+  /* border: 2px solid red; */
 }
 
 button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+
+  /* border: 2px solid red; */
+}
+
+
+.left-container,
+.center-container,
+.right-container {
+  /* border: 2px solid purple; */
+  padding: 5px;
+
+}
+
+
+.header {
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 20px;
+  
+}
+
+.text {
+  margin-bottom: 10px;
+  font-size: 16px;
 }
